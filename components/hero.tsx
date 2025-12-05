@@ -36,9 +36,9 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "안영준(수정중)",
-    title: "단국대 학생입니다",
+    greeting: "안녕하세요",
+    name: "안영준",
+    title: "단국대학교 도시계획부동산학부 부동산학 전공",
     description: "프롭테크 기술로 부동산 시장을 분석합니다.",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
