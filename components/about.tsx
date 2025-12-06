@@ -99,12 +99,12 @@ export function About() {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2019 - 2026 졸업예정","description":"도시계획부동산학부 부동산학 전공"},{"icon":"award","title":"자격증/수상","period":"2025 공인중개사 ","description":"1차 합격"},{"icon":"briefcase","title":"동아리 활동","period":"2024.03~12","description":"답사 동아리 시공인 부원"}],
+    skills: [{"icon":"lineChart","title":"부동산 금융 인사이트","description":"부동산입지, 부동산금융, 부동산신탁, 부동산마케팅 등의 수업을 들으며 부동산 금융 지식을 키웠습니다."},{"icon":"star","title":"자산관리 능력","description":"가계부 어플을 사용하며 소비 및 재무습관을 개선하였고 현금, 금 etf, 주식을 적절하게 배분한 포트폴리오를 구성하여 자산관리를 하고 있습니다."},{"icon":"users","title":"팀 프로젝트 경험","description":"다양한 팀 프로젝트를 통해 효율적인 협업 능력과 원활한 커뮤니케이션 역량을 길렀습니다."}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    story: ["저는 부동산 시장의 복잡한 금융 구조를 깊이 있게 이해하고 책임감 있는 분석과 판단을 통해 안정적인 수익을 창출하는 부동산 금융 전문가를 목표로 하고 있습니다. 이를 위해 전공 수업을 심도 있게 학습하며 부동산 금융 인사이트를 키웠고 가계부 관리로 자산관리 능력을 강화해 왔습니다. 또한 다양한 팀 프로젝트를 수행하며 협업과 소통 역량을 쌓았습니다.","저는 부동산자산관리 수업을 통해 Net Operating Income(순영업소득) 산정 과정을 실습하며 수익형 부동산의 운영 메커니즘을 깊이 이해하게 되었습니다. 특히 부동산 수익 흐름을 수치화하고 미래 현금흐름을 할인해 현재가치를 산출하는 실무적 분석 능력을 훈련했습니다.\n또한 부동산신탁 수업에서 신한자산신탁의 신탁원부 분석과제를 통해 신탁사의 위험요인 중 하나인 책임 준공 리스크에 대해 깊이 있게 이해하였고 분양관리신탁 구조도를 분석하며 분양관리신탁 개념과 특징을 명확하게 이해하였습니다.","이러한 경험을 바탕으로 부동산 시장을 복합적으로 이해하는 넓은 시야와 데이터 기반의 분석 역량을 지속적으로 강화해 나갈 것입니다. 앞으로도 다양한 프로젝트와 실무 경험을 통해 금융 이해도와 책임감 있는 판단력을 키우며 부동산 산업에서 신뢰받는 전문가로 성장하겠습니다."],
+    storyImage: "/uploads/about-image-1765051649507.jpg",
+    hobbies: ["📚 독서","☕ 카페 투어","🎨 박람회 관람","✈️ 여행"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

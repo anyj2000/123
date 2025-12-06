@@ -38,9 +38,9 @@ export function Hero() {
   const defaultInfo = {
     greeting: "안녕하세요",
     name: "안영준",
-    title: "단국대학교 도시계획부동산학부 부동산학 전공",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
-    profileImage: "/uploads/hero-profile-1761477237286.png",
+    title: "단국대학교 도시계획부동산학부",
+    description: "데이터와 경험을 기반으로 부동산 금융 전문가를 목표로 하고 있습니다.",
+    profileImage: "/uploads/hero-profile-1765051408378.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,

@@ -17,13 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"#ededed","opacity":0.6},
+    projects: [{"image":"/uploads/project-1765046289273-1765046289282.png","video":"","title":"신한자산신탁 신탁원부 분석","description":"덕수궁 디펠리스 개발사업 과정을 신탁원부를 통해 분석하며 책임준공 리스크를 이해하고 분양관리신탁과 담보신탁의 차이를 구조적으로 분석"},{"image":"/uploads/project-1765047144347-1765047144378.png","video":"","title":"상가물건 투자 분석","description":"경기도 용인시 기흥구에 위치한 2023타경70987의 매물분석, 권리분석, 사업성 검토 등을 진행"},{"image":"/uploads/project-2-1765048862684.png","video":"","title":"한국의 소셜믹스 유형 연구","description":"사회적 혼합의 목적을 지닌 소셜믹스를 국내 및 해외사례를 비교 연구하여 더 나은 해결책을 모색"},{"image":"/uploads/project-1765047720346-1765047720388.png","video":"","title":"도시개발사업의 이슈와 사례연구 결과분석","description":"판교를 중심으로 업무지구의 성공요인과 한계점을 분석하며 향후 새롭게 개발되는 업무 단지가 어떠한 개발을 해 나아가야 하는지에 대한 방향성을 제시"},{"image":"/uploads/project-1765048065333-1765048065362.png","video":"","title":"담꾹 매헌점, 푸드얍 양재점의 입지비교 분석","description":"같은 지구상권 내에 위치한 동종업체 간의 차이점을 교통접근성, 시계성, 수익성 비교 등을 통해 분석"},{"image":"/uploads/project-1765048264589-1765048264615.png","video":"","title":"IRR 도출과정 분석","description":"수익형 부동산의 임대소득 및 비용을 계산하여 NOI를 도출하고 세후 현금흐름을 통해 세후 IRR을 구하는 과정을 거쳐 부동산의 실질적인 수익률을 구하는 프로젝트"},{"image":"/uploads/project-6-1765048739455.png","video":"","title":"시공인 동아리 활동","description":"서울 고속버스터미널의 여러 특징을 분석하고 논제를 고속버스터미널의 장점 및 생존전략으로 정하여 관련 내용을 서로 토론하며 분석"},{"image":"/uploads/project-1765049021978-1765049022002.png","video":"","title":"토지론입문 CASE 분석","description":"경기도 군포시 산본동 1142-7번지에 위치한 건물의 건폐율 및 용적률을 분석하고 과밀억제권역, 철도보호지구 등 법령에 따른 지역ㆍ지구 등을 분석하여 부동산의 가치를 평가"},{"image":"/uploads/project-1765049120044-1765049120073.png","video":"","title":"서울 녹지생태도심 전략 및 방향","description":"서울 내 녹지생태도심을 이해하고 선도사업인 종묘~퇴계로 일대 개발의 필요성 및 추진계획을 분석하면서 기대효과와 향후 과제를 논의"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
