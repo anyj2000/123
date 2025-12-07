@@ -38,7 +38,7 @@ export function Contact() {
     title: "단국대학교 도시계획부동산학부",
     company: "",
     experience: "4학년",
-    phone: "010-5641-3641",
+    phone: "010-5641-3642",
     email: "anyj2000@naver.com",
     website: "",
     location: "경기도 군포시",
